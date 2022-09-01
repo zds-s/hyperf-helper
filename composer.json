@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "DeathSatan\\HyperfHelper\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
@@ -14,6 +17,11 @@
             "email": "2771717608@qq.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.4|^8.0",
+        "death_satan/composer": "*",
+        "hyperf/framework": "~2.2.0",
+        "swoole/ide-helper": "^5.0",
+        "hyperf/contract": "^2.2"
+    }
 }
