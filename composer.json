@@ -1,0 +1,19 @@
+{
+    "name": "death_satan/hyperf-helper",
+    "description": "Hyperf Helpers function library...",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DeathSatan\\HyperfHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DeathSatan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
