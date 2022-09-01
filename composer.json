@@ -21,7 +21,6 @@
         "php": "^7.4|^8.0",
         "death_satan/composer": "*",
         "hyperf/framework": "~2.2.0",
-        "swoole/ide-helper": "^5.0",
         "hyperf/contract": "^2.2"
     }
 }
